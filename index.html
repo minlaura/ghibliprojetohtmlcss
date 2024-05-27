@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   <header>
+    <a href="./index.html">
+        <div class="logo">
+            <img class="logoimg" src="./Assets/Studio_Ghibli_logo.svg.png" alt="logoimg">
+        </div>
+    </a>
+
+    <nav>
+        <ul>
+            <li>Home</li>
+            <li>Tickets</li>
+            <li>Trailer</li>
+            <li>Movies</li>
+            <i class="fa-solid fa-magnifying-glass" id="searchicon"></i>
+        </ul>
+    </nav>
+    
+   </header>
+
+   <div class="modal"></div>
+   <div class="homecontainer">
+    <div class="presentationcontainer">
+        <h3>Get ready to be enchanted by the magical world of "The Boy and the Heron"</h3>
+        <h1>Brought to you by <span>Studio Ghibli</span></h1>
+        <p>Set against the backdrop of World War II, "The Boy and the Heron" tells the heartwarming story of Mahito, a young boy who seeks solace in the tranquility of the countryside after losing his mother in a bombing raid. There, he moves with his father to a rural area, where he embarks on a journey of self-discovery and emotional healing.</p>
+        <button>More</button>
+    </div>
+    <div class="video-container">
+        <video autoplay muted loop id="bg-video" controls>
+            <source src="./Assets/THE BOY AND THE HERON _ Official English Trailer (1080p).mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+   
+   <!-- Adicionei os quadrados aqui -->
+   <div class="destaksscontainer">
+       <div class="destakscontent">
+           <div class="content" id="square1">
+               <i class="fa-solid fa-film"></i>
+               <span class="destaksspan">Cinemas</span>
+               <div class="divider"></div>
+               <p class="destaksparagraph">The boy and the heron available in cinemas</p>
+           </div>
+
+           <div class="content" id="square2">
+               <i class="fa-regular fa-pen-to-square"></i>
+               <span class="destaksspan">Script Writer</span>
+               <div class="divider"></div>
+               <p class="destaksparagraph">Miyazaki's films have been praised for their creativity, artistry, and social commentary.</p>
+           </div>
+
+           <div class="content" id="square3">
+               <i class="fa-solid fa-users"></i>
+               <span class="destaksspan">Ghibli fandom</span>
+               <div class="divider"></div>
+               <p class="destaksparagraph">Can't wait for gorgeous animation and a feels trip in "The Boy and the Heron." Gotta see it!</p>
+           </div>
+       </div>
+   </div>
+
+   <section class="welcomecontainer">
+        <div class="writercontainer">
+            <div class="writercontent">
+                <div class="signaturetext">
+                    <div class="signaturetitle">
+                        <h5>Embrace the magic of</h5>
+                        <h1>Ghibli animation.</h1>
+                    </div>
+
+                    <span>
+                        Studio Ghibli's films are a gateway to a world where imagination reigns supreme. Through captivating stories, breathtaking animation, and endearing characters, Ghibli invites viewers to experience the extraordinary.
+                    </span>
+
+                    <p>
+                        Hayao Miyazaki, the co-founder of Studio Ghibli and the creative force behind many of its most beloved films, such as Spirited Away, My Neighbor Totoro, and Princess Mononoke. His visionary storytelling and dedication to hand-drawn animation are central to the studio's magic.
+                    </p>
+
+                    <div class="signaturebutton">
+                        <button>Read More</button>
+                        <img class="signatureimg" src="./Assets/Hayao_Miyazaki_signature.svg.png" alt="signature">
+                    </div>
+                </div>
+            </div>
+            <div class="yao">
+                <img class="yaoimg" src="./Assets/880x535-HAYAO.jpg"yao">
+            </div>
+        </div>
+    </section>
+
+    <section class="ourmoviescontainer">
+        <div class="ourmoviestitle">
+            <h2>OUR MOVIES</h2>
+            <h1>Streaming Now</h1>
+            <div class="divider" id="ourmoviesdivider"></div>
+        </div>
+
+        <div class="ourmoviescontents">
+            <div class="ourmoviessquare">
+                <div class="ourmoviesicon">
+                    <i class="fa-solid fa-film" id="moviesicon"></i>
+                </div>
+                <div class="ourmoviestext">
+                    <h3 class="movietitle">Kiki's Delivery Service</h3>
+                    <span class="moviedescription">A young witch finds her place in a new town.</span>
+                    <button class="watchnowbtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="ourmoviessquare">
+                <div class="ourmoviesicon">
+                    <i class="fa-solid fa-film" id="moviesicon"></i>
+                </div>
+                <div class="ourmoviestext">
+                    <h3 class="movietitle">My Neighbor Totoro</h3>
+                    <span class="moviedescription">Two girls discover a world of forest spirits.</span>
+                    <button class="watchnowbtn">Watch Now</button>
+                </div>
+            </div>
+
+            <div class="ourmoviessquare">
+                <div class="ourmoviesicon">
+                    <i class="fa-solid fa-film" id="moviesicon"></i>
+                </div>
+                <div class="ourmoviestext">
+                    <h3 class="movietitle">The Cat Returns</h3>
+                    <span class="moviedescription">A girl is whisked away to the world of cats.</span>
+                    <button class="watchnowbtn">Watch Now</button>
+                </div>
+            </div>
+        </div>
+    </section>

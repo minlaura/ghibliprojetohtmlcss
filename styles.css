@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+body {
+    background-image: url('./Assets/meninogarca.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    top: 0;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: rgba(32, 161, 201, 0.9);
+    z-index: 1;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+
+.logoimg {
+    width: 100px;
+    height: auto;
+}
+
+nav {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+li {
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+li:hover, #searchicon:hover, #menu:hover {
+    color: rgb(19, 200, 212);
+    cursor: pointer;
+}
+
+#searchicon, #menu {
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.video-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+video {
+    width: 100%;
+    height: auto;
+}
+
+.presentationcontainer {
+    width: 100%;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    color: rgb(0, 0, 0);
+    z-index: 1;
+    text-align: center;
+}
+
+.presentationcontainer h3 {
+    letter-spacing: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+.presentationcontainer h1 {
+    font-size: 2.5rem;
+}
+
+.presentationcontainer span {
+    color: rgb(7, 94, 148);
+}
+
+.presentationcontainer p {
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.presentationcontainer button {
+    width: 80%;
+    max-width: 200px;
+    padding: 0.5rem;
+    background-color: rgb(40, 99, 136);
+    color: rgb(254, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 2px solid #15263f;
+    cursor: pointer;
+}
+
+.presentationcontainer button:hover {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+}
+
+.destaksscontainer {
+    width: 100%;
+    padding: 0 1rem;
+    margin-top: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.destakscontent {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.content {
+    flex: 1 1 30%;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: rgba(25, 139, 173, 0.9);
+    padding: 1rem;
+    text-align: center;
+}
+
+.content i {
+    font-size: 3rem;
+}
+
+.destaksspan {
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.destaksparagraph {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.divider {
+    border: none;
+    border-top: 3px solid #ffffff;
+    margin: 0.5rem 0;
+    width: 45%;
+}
+
+.welcomecontainer {
+    width: 100%;
+    padding: 2rem 1rem;
+}
+
+.writercontainer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.writercontent {
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.signaturetext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.signaturetitle h1 {
+    font-size: 2rem;
+    color: rgb(10, 5, 5);
+}
+
+.signaturetext h5 {
+    font-size: 1.5rem;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+.siganutretext span {
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.signaturebutton {
+    display: flex;
+    gap: 1rem;
+}
+
+.signaturebutton button {
+    padding: 0.5rem 1rem;
+    background-color: lightskyblue;
+    color: #15263f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 2px solid #1981CD;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signaturebutton button:hover {
+    background-color: transparent;
+}
+
+.signaturebutton img {
+    width: 50px;
+    height: auto;
+}
+
+.yao {
+    flex: 1 1 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yao img {
+    max-width: 100%;
+    height: auto;
+}
+
+.ourmoviescontainer {
+    width: 100%;
+    padding: 2rem 1rem;
+    background-color: #15263f;
+    display: flex;
+    flex-direction: column;
+}
+
+.ourmoviestitle {
+    text-align: center;
+}
+
+.ourmoviestitle h2 {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+    letter-spacing: 5px;
+}
+
+.ourmoviestitle h1 {
+    font-size: 2.5rem;
+    color: #1981CD;
+}
+
+.ourmoviescontents {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.ourmoviessquare {
+    flex: 1 1 30%;
+    min-width: 250px;
+    display: flex;
+    gap: 1rem;
+}
+
+.ourmoviesicon {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+    color: lightskyblue;
+}
+
+.ourmoviestext {
+    flex-grow: 1;
+    padding: 1rem;
+    color: white;
+}
+
+.movietitle {
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.moviedescription {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.watchnowbtn {
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: lightskyblue;
+    color: #15263f;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 2px solid #1981CD;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.watchnowbtn:hover {
+    background-color: transparent;
+    color: #ffffff;
+}
+
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    nav ul {
+        flex-direction:row
+       
+    }
+
+    .presentationcontainer h1 {
+        font-size: 2rem;
+    }
+
+    .presentationcontainer button {
+        width: 100%;
+    }
+
+    .writercontainer, .yao {
+        flex-direction: column;
+        align-items: center;
+    }
+}
